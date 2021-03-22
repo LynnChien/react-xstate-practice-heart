@@ -1,0 +1,38 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.menu {
+  position: absolute;
+  bottom: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: steelblue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  cursor: pointer;
+}
